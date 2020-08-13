@@ -1,0 +1,196 @@
+body{
+text-align: center;
+}
+
+h1 , h2 , h3 , h4 , h5 , h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  color: #8F8F8F;
+}
+
+
+   /* headings */
+
+.big-heading{
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+.Section-heading{
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+
+/* navigation bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubantu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family:"Montserrat-Light";
+}
+
+
+/* downloaded button */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+    /* title image rotate and resize */
+
+#title{
+background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+   /* features section */
+.features{
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.features-title{
+  font-size: 1.5rem;
+}
+
+.features-box{
+
+  padding: 5%;
+
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color:#ff4c68;
+}
+
+
+    /* testimonials section */
+.testimonials{
+
+  background-color: #ef8172;
+
+
+    color: #fff;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+.Testimonial-image{
+   width: 15%;
+   border-radius: 100%;
+   padding: 20px;
+
+}
+
+
+.press{
+  background-color:  #ef8172;
+  text-align:center;
+    padding-bottom: 3%;
+}
+
+.press-images{
+  width: 13%;
+  margin: 20px 20px 50px;
+
+
+}
+
+   /* cta section */
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+
+
+   /* pricing section */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+
+.pricing-heading{
+  font-size: 1.5rem;
+}
+
+
+
+     /* footer section */
+
+.social-icon{
+  margin: 20px 10px;
+}
+
+
+      /* media */
+
+@media (max-width:1028px) {
+    .title-image{
+      transform:rotate(0);
+      position: static;
+    }
+
+    .titles{
+      text-align: center;
+    }
+
+}
